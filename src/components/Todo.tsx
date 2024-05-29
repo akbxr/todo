@@ -1,7 +1,7 @@
 import { Box, Checkbox, Flex, Text } from "@chakra-ui/react";
 import { DeleteIcon } from "@chakra-ui/icons";
 
-function Todo() {
+const Todo = () => {
   return (
     <>
       {/* <Container> */}
@@ -89,6 +89,6 @@ function Todo() {
       {/* </Container> */}
     </>
   );
-}
+};
 
 export default Todo;
