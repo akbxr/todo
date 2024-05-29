@@ -1,4 +1,4 @@
-import { Box, Checkbox, Flex, Text } from "@chakra-ui/react";
+import { Box, Checkbox, Divider, Flex, Text } from "@chakra-ui/react";
 import { DeleteIcon } from "@chakra-ui/icons";
 
 const Todo = () => {
@@ -82,6 +82,7 @@ const Todo = () => {
             <DeleteIcon color="red.500" />
           </Box>
         </Flex>
+        <Divider />
         <Text align="center" as="b" textColor="white" fontSize="2xl">
           DONE: 0
         </Text>
