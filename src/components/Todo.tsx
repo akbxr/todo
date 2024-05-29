@@ -83,7 +83,7 @@ const Todo = () => {
           </Box>
         </Flex>
         <Divider />
-        <Text align="center" as="b" textColor="white" fontSize="2xl">
+        <Text align="center" mb={3} as="b" textColor="white" fontSize="2xl">
           DONE: 0
         </Text>
       </Flex>
