@@ -1,0 +1,9 @@
+.custom-checkbox .chakra-checkbox__control:not([data-checked]) {
+  border-color: green;
+  background-color: white; /* Make sure the background color stays white when unchecked */
+  background: #24283b;
+}
+
+.custom-checkbox .chakra-checkbox__control:not([data-checked]):hover {
+  border-color: green;
+}
